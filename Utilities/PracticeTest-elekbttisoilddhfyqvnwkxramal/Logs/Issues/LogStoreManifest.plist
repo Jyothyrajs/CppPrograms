@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>11F53AB7-C5CA-4980-948F-C1289621482A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>11F53AB7-C5CA-4980-948F-C1289621482A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>MyTree-dgenosxsdwtdssdjdwiqkzwqpsrk</string>
+			<key>timeStartedRecording</key>
+			<real>628882518.55378199</real>
+			<key>timeStoppedRecording</key>
+			<real>628882519.84651506</real>
+			<key>title</key>
+			<string>Build target MyTree</string>
+			<key>uniqueIdentifier</key>
+			<string>11F53AB7-C5CA-4980-948F-C1289621482A</string>
+		</dict>
+		<key>63E32A20-216F-4965-A13A-20111ED74C5A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>63E32A20-216F-4965-A13A-20111ED74C5A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Tree_Implementation-eljakcuzwuwsnafavdgbvaellrki</string>
+			<key>timeStartedRecording</key>
+			<real>628881358.518085</real>
+			<key>timeStoppedRecording</key>
+			<real>628881361.04834104</real>
+			<key>title</key>
+			<string>Build target Tree Implementation</string>
+			<key>uniqueIdentifier</key>
+			<string>63E32A20-216F-4965-A13A-20111ED74C5A</string>
+		</dict>
+		<key>FA56B563-FE62-4D15-B3E0-462CB4B3F806</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>FA56B563-FE62-4D15-B3E0-462CB4B3F806.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>PracticeTest-elekbttisoilddhfyqvnwkxramal</string>
+			<key>timeStartedRecording</key>
+			<real>628984641.02628803</real>
+			<key>timeStoppedRecording</key>
+			<real>628984642.06713796</real>
+			<key>title</key>
+			<string>Build target PracticeTest</string>
+			<key>uniqueIdentifier</key>
+			<string>FA56B563-FE62-4D15-B3E0-462CB4B3F806</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
