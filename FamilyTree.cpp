@@ -5,6 +5,7 @@ struct Person
 {
 	char name[20];
 	char relation[20];
+	char mother[20];
 	bool gender;
 	Person *child;
 };
@@ -28,13 +29,14 @@ void Family::addChild(char m[],char n[],char g[])
 	Person *p1= new Person;
 	strcpy(p1->mother,m);
 	strcpy(p1->name,n);
-	strcpy(p1->gender,g);
-	if(strcmp(g,"Female"))
+	if(strcmp(g,"Male"))
 	{
-		p1->daughter =true;
+		p1->gender = false;
 	}
 	else
-		p1->daughter = false;
+	{
+		p1->gender = true;
+	}
 /* 	Person *parent = getMother(n);	
 	if(parent!=NULL)
 		parent->child=p1;
@@ -44,12 +46,12 @@ void Family::addChild(char m[],char n[],char g[])
 		head=p1;
 }
 Person* Family::getMother(char *n)
-:0
 {
 	Person *prev =head;
 	Person *temp=head;
 		while(temp!=NULL && strcmp(temp->name,n)!=0)
 		{
+			
 			prev= temp;
 			temp= temp->child;
 		}
@@ -70,7 +72,7 @@ int main()
 	Family *f=new Family();
 	f->addChild("Jyothy","Dhrona","Male");
 	Person *m1=f->getMother("Dhrona");
-	cout<<m1->name<<endl;
+	cout<<"Dhrona's Mother: " <<m1->name<<endl;
 	f->show();
 	return 0;
 }
